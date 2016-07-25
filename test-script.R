@@ -1,3 +1,3 @@
-print("Show today's date")
-Sys.Date()
+print(paste("Show today's date is:", Sys.Date()))
 
+      
