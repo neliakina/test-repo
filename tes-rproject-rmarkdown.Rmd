@@ -1,0 +1,17 @@
+---
+title: "Test project"
+output: html_document
+---
+
+#Test Project R Markdown
+Test project to see how R Markdown works.
+
+Code below prints today's date:
+```{r eval = FALSE}
+print(paste("Today's date is:", Sys.Date()))
+```
+
+Here is the result of running the code:
+```{r echo = FALSE}
+print(paste("Today's date is:", Sys.Date()))
+```
